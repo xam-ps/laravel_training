@@ -19,8 +19,6 @@
             </select>
             <button type="submit">Checkout</button>
         </form>
-    @else
-        Checked out to {{ $customers[$book->customer_id] }}
     @endif
     
 
