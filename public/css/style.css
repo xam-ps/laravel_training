@@ -1,0 +1,218 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol,
+ul {
+    list-style: none;
+}
+blockquote,
+q {
+    quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+html {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body > div {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 6px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+}
+
+header nav {
+    padding-right: 20px;
+}
+
+h1 {
+    font-size: 2em;
+}
+h2 {
+    font-size: 1.7em;
+    margin-bottom: 0.5em;
+}
+h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.3em;
+}
+h4 {
+    font-size: 1.3em;
+    margin-bottom: 0.2em;
+}
+
+button {
+    cursor: pointer;
+}
+
+.add_form {
+    margin: 10px 0 26px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px;
+}
+
+.add_form * {
+    min-width: 200px;
+}
+
+.books_page .books {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    gap: 5px;
+}
+
+.books_page .book {
+    padding: 4px;
+    background-color: #f0f0f0;
+    flex-basis: 30%;
+    flex-grow: 1;
+    min-width: 200px;
+    text-align: center;
+    border: none;
+    border-radius: 6px;
+    color: black;
+    text-decoration: none;
+}
+
+.books_page .not_available {
+    background-color: rgb(255, 134, 134);
+}
+
+ul {
+    padding-left: 6px;
+}
